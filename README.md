@@ -2,8 +2,8 @@
 
 ## Classification Problem
 As Computer Vision develops alongside the increasing prevalence of cheap edge computing devices, we are seeing more innovative CV use cases that can be deployed on relatively cheap edge devices in the home such as Ring doorbells. Most models focus on detection of an individual to start a recording or send a notification; this project intends to expand that list to include detection of:
-● Pets
-○ Cat
+- Pets
+-- Cat
 ■ 4298 Images ○ Dog
 ■ 4562 Images
 ● Miscellaneous home items
