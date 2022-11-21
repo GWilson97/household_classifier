@@ -26,7 +26,7 @@ wandb.init(project="household_classifier", entity="gwilson")
 pylab.rcParams['figure.figsize'] = (8.0, 10.0)
 images = np.load("image.npy")
 image_labels = np.load("image_category.npy")
-labels = np.unique(image_labels)
+labels = ["person", "dog", "cat", "backpack", "potted plant"]
 
 def extract_HOG_features(data):
     num_samples = data.shape[0]

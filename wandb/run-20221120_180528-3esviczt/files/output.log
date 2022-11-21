@@ -1,0 +1,182 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████████████████████████████████████████████████| 8932/8932 [02:33<00:00, 58.07it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████████████████████████████████████████████████| 2978/2978 [00:52<00:00, 57.22it/s]
+Iteration 1, loss = 0.79298902
+Iteration 2, loss = 0.50884803
+Iteration 3, loss = 0.42872327
+Iteration 4, loss = 0.41398998
+Iteration 5, loss = 0.33602889
+Iteration 6, loss = 0.27640359
+Iteration 7, loss = 0.24537446
+Iteration 8, loss = 0.22259862
+Iteration 9, loss = 0.20340377
+Iteration 10, loss = 0.22873553
+Iteration 11, loss = 0.25560211
+Iteration 12, loss = 0.22720841
+Iteration 13, loss = 0.19647039
+Iteration 14, loss = 0.18245572
+Iteration 15, loss = 0.17821380
+Iteration 16, loss = 0.17509726
+Iteration 17, loss = 0.17279319
+Iteration 18, loss = 0.17265937
+Iteration 19, loss = 0.17408155
+Iteration 20, loss = 0.16784183
+Iteration 21, loss = 0.16663962
+Iteration 22, loss = 0.28611575
+Iteration 23, loss = 0.31650729
+Iteration 24, loss = 0.20155897
+Iteration 25, loss = 0.18564613
+Iteration 26, loss = 0.18276038
+Iteration 27, loss = 0.17040581
+Iteration 28, loss = 0.16848736
+Iteration 29, loss = 0.16539134
+Iteration 30, loss = 0.16411678
+Iteration 31, loss = 0.16179199
+Iteration 32, loss = 0.16145669
+Iteration 33, loss = 0.16218217
+Iteration 34, loss = 0.16727583
+Iteration 35, loss = 0.27401212
+Iteration 36, loss = 0.20110040
+Iteration 37, loss = 0.17283215
+Iteration 38, loss = 0.16698718
+Iteration 39, loss = 0.16380141
+Iteration 40, loss = 0.16186745
+Iteration 41, loss = 0.16264210
+Iteration 42, loss = 0.16007527
+Iteration 43, loss = 0.15826597
+Iteration 44, loss = 0.15704815
+Iteration 45, loss = 0.15652642
+Iteration 46, loss = 0.15532740
+Iteration 47, loss = 0.15430389
+Iteration 48, loss = 0.49255174
+Iteration 49, loss = 0.27643769
+Iteration 50, loss = 0.19989408
+Iteration 51, loss = 0.17287864
+Iteration 52, loss = 0.16683608
+Iteration 53, loss = 0.16514589
+Iteration 54, loss = 0.24474457
+Iteration 55, loss = 0.17337899
+Iteration 56, loss = 0.16379700
+Iteration 57, loss = 0.16099341
+Iteration 58, loss = 0.16146434
+Training loss did not improve more than tol=0.000100 for 10 consecutive epochs. Stopping.
+Training accuracy: 0.940550828481863
+Testing accuracy: 0.8871725990597716
+[34m[1mwandb[39m[22m:
+[34m[1mwandb[39m[22m: Plotting SVC.
+[34m[1mwandb[39m[22m: [33mWARNING[39m could not find any of attributes feature_importances_, feature_log_prob_, coef_ on classifier. Cannot plot feature importances.
+[34m[1mwandb[39m[22m: Logged feature importances.
+Traceback (most recent call last):
+  File "/Users/grantwilson/mids/281/household_classifier/model_train.py", line 71, in <module>
+    wandb.sklearn.plot_classifier(clf, train_data,
+  File "/Users/grantwilson/opt/anaconda3/lib/python3.9/site-packages/wandb/sklearn/plot/classifier.py", line 79, in classifier
+    confusion_matrix(y_test, y_pred, labels)
+  File "/Users/grantwilson/opt/anaconda3/lib/python3.9/site-packages/wandb/sklearn/plot/classifier.py", line 168, in confusion_matrix
+    confusion_matrix_chart = calculate.confusion_matrix(
+  File "/Users/grantwilson/opt/anaconda3/lib/python3.9/site-packages/wandb/sklearn/calculate/confusion_matrix.py", line 64, in confusion_matrix
+    table = make_table(cm, pred_classes, true_classes, labels)
+  File "/Users/grantwilson/opt/anaconda3/lib/python3.9/site-packages/wandb/sklearn/calculate/confusion_matrix.py", line 77, in make_table
+    true = labels[true_classes[j]]
+IndexError: index 17 is out of bounds for axis 0 with size 5

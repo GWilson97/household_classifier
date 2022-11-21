@@ -1,0 +1,42 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.9.12",
+    "heartbeatAt": "2022-11-21T03:06:43.395826",
+    "startedAt": "2022-11-21T03:06:42.938275",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/grantwilson/mids/281/household_classifier/model_train.py",
+    "codePath": "model_train.py",
+    "git": {
+        "remote": "https://github.com/GWilson97/household_classifier.git",
+        "commit": "0f93843bc553a27d173360ab15a6b46cdcaa0275"
+    },
+    "email": "gwilso97@gmail.com",
+    "root": "/Users/grantwilson/mids/281/household_classifier",
+    "host": "Grants-MacBook-Pro.local",
+    "username": "grantwilson",
+    "executable": "/Users/grantwilson/opt/anaconda3/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "total": 460.4317207336426,
+        "used": 387.2361946105957
+    },
+    "memory": {
+        "total": 16.0
+    }
+}
